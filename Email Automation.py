@@ -13,7 +13,7 @@ sub = cf.gui_get_any_input_from_user('Subject')
 
 body = cf.gui_get_any_input_from_user('Enter the Text',multi_line= True)
 
-cf.browser_activate("https://mail.google.com/")
+cf.browser_activate("https://mail.yahoo.com/")
 cf.browser_write_h(name,'Email')
 cf.browser_mouse_click_h('next')
 cf.browser_write_h(password,'Enter the Password')
